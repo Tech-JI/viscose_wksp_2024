@@ -12,7 +12,7 @@
     ```
     若出现了版本提示，则安装成功，否则需要手动配置环境变量
 
-### Linix
+### Linux
 
 - 打开终，输入 
     ```bash 
@@ -50,19 +50,3 @@
     ```
     (linux/mac)
 - 将找到的g++路径写入settings.json的 **"C_Cpp.default.compilerPath": ""** (windows需要在每个反斜杠处多加一个反斜杠，示例： **"C_Cpp.default.compilerPath": "D:\\Program\\mingw64\\bin\\g++.exe",**)
-
-### Formatter for Cpp
-
-- 在settings.json中添加
-    ```json
-    "editor.formatOnSave": true,
-        "[cpp]": {
-            "editor.defaultFormatter": "ms-vscode.cpptools"
-        },
-    ```
-
-- 如果想要调整format style，打开C/C++扩展，进入设置，在**C_Cpp: Clang_format_fallback Style**下进行设置[format](pic/cpp_format.png)
-- 示例：
-  ```json
-    { BasedOnStyle: Google, UseTab: ForIndentation, IndentWidth: 4, TabWidth: 4, ColumnLimit: 100 }
-  ```
