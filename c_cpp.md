@@ -33,6 +33,25 @@
     ```
 - 出现安装请求提示时，键入 y 并按回车，完成安装
 
+### Mac
+
+- 打开终端，输入 
+    ```bash 
+    clang --version
+    ```
+    若出现了版本提示，输入
+    ```bash
+    g++ --version
+    gdb --version
+    ```
+    若出现版本提示则已经可以运行
+
+- clang未安装，则运行
+    ```bash
+    xcode-select --install
+    ```
+    安装完成后，再次验证clang版本
+
 ## VSCode C/C++ 插件
 
 ### 安装插件
