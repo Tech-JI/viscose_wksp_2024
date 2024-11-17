@@ -40,7 +40,7 @@
         },
     ```
 
-- 如果想要调整format style，打开C/C++扩展，进入设置，在**C_Cpp: Clang_format_fallback Style**下进行设置[format](pic/cpp_format.png)
+- 如果想要调整format style，打开C/C++扩展，进入设置，在**C_Cpp: Clang_format_fallback Style**下进行设置![format](assets/cpp_format.png)
 - 示例：
   ```json
   { BasedOnStyle: Google, UseTab: ForIndentation, IndentWidth: 4, TabWidth: 4, ColumnLimit: 100 }

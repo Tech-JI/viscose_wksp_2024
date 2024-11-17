@@ -3,7 +3,7 @@
 
 ### Font
 
-- 点击页面左下角齿轮图标进入"Settings", 在左侧栏选择font[font](pic/font_setting.png)
+- 点击页面左下角齿轮图标进入"Settings", 在左侧栏选择font![font](assets/font_setting.png)
 
 - 在 "Font Size" 中调整字体大小
 

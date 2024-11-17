@@ -33,13 +33,13 @@
 
 ### 安装插件
 
-- 打开扩展-应用商店 ![应用商店](pic/CExtension.png)
-- 搜索C++，安装图示插件 ![C/C++扩展](pic/CExtension2.png)
+- 打开扩展-应用商店 ![应用商店](assets/CExtension.png)
+- 搜索C++，安装图示插件 ![C/C++扩展](assets/CExtension2.png)
 
 ### 配置插件
 
-- 点击右侧齿轮按钮，选择设置![设置](pic/Settings.png)
-- 搜索 compiler， 找到Compiler Path, 选择 在设置中编辑![Path](pic/compiler.png)
+- 点击右侧齿轮按钮，选择设置![设置](assets/Settings.png)
+- 搜索 compiler， 找到Compiler Path, 选择 在设置中编辑![Path](assets/compiler.png)
 - 在终端中输入
     ```bash
     where.exe g++
