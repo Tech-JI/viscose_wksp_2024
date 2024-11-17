@@ -2,7 +2,7 @@
 
 ### windows
 
-- 下载MinGW [MinGW](https://github.com/niXman/mingw-builds-binaries/releases)并根据自己电脑的版本选择合适的压缩包 ![version](pic/version.png)
+- 下载MinGW [MinGW](https://github.com/niXman/mingw-builds-binaries/releases)并根据自己电脑的版本选择合适的压缩包 ![version](assets/version.png)
 - 解压安装包并安装，记录安装路径
 - 配置环境变量
     - 右键`此电脑` -> `属性` -> `高级系统设置` -> `环境变量`
