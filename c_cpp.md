@@ -2,19 +2,23 @@
 
 ### windows
 
-- 下载MinGW [MinGW](https://sourceforge.net/projects/mingw-w64/)
-- 解压安装包并安装
+- 下载MinGW [MinGW](https://github.com/niXman/mingw-builds-binaries/releases)并根据自己电脑的版本选择合适的压缩包 ![version](pic/version.png)
+- 解压安装包并安装，记录安装路径
+- 配置环境变量
+    - 右键`此电脑` -> `属性` -> `高级系统设置` -> `环境变量`
+    - 在系统变量中找到`PATH`，点击`编辑`
+    - 新建添加MinGW-w64的bin目录路径，例如`D:\Program\mingw64\bin`
 - 打开终端输入
     ```bash 
     gcc --version
     g++ --version
     gdb --version
     ```
-    若出现了版本提示，则安装成功，否则需要手动配置环境变量
+    若出现了版本提示，则安装成功
 
 ### Linux
 
-- 打开终，输入 
+- 打开终端，输入 
     ```bash 
     gcc --version
     g++ --version
