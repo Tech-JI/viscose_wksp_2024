@@ -8,4 +8,4 @@
 - 扩展推荐
   - [静态代码分析工具sonarlint](sonarlint.md)
   - [code spell checker](spell.md)
-- [make vscode FATSER!](faster.md)
+- [make vscode FASTER!](faster.md)
